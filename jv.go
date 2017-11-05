@@ -103,6 +103,8 @@ func handleKeypress(t *terminal.Terminal, j *jsontree.JsonTree, e termbox.Event)
 			j.ToggleLine(t.CursorY + t.OffsetY)
 		case termbox.KeySpace:
 			j.ToggleLine(t.CursorY + t.OffsetY)
+		case termbox.KeyTab:
+			j.ToggleLine(t.CursorY + t.OffsetY)
 		}
 	} else {
 		switch e.Ch {
