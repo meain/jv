@@ -20,3 +20,9 @@ Or by reading from `stdin`:
 jv < file.json
 echo '{"foo": "bar"}' | jv
 ```
+
+## Keybindings
+
+Move left right up and down using arrow keys or `h` `j` `k` `l`.  
+Open and close sub section with `space` `tab` or `enter`.  
+Quit `jv` using `q` or `Ctrl+c`.
